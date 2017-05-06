@@ -1,0 +1,23 @@
+#toolTip {
+  position: absolute;
+  pointer-events: none;
+  border: 1px solid black;
+  border-radius: 2px;
+  min-width: 20px;
+  height: auto;
+  padding: 10px 10px 10px 10px;
+  background-color: rgba(255, 255, 255, 0.7);
+  font-weight: 700;
+}
+
+#chart-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#title {
+  font-size: 2em;
+  font-weight: 700;
+}
